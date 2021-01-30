@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-16T13:57:59.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="-Mi9f1tR4rWxwLKzS-J-" version="14.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-30T12:06:20.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="bTYiD1sg-NE9yB327dcF" version="14.2.4" type="github" pages="3">
   <diagram id="p0deHhukB9I0JdLg6zLl" name="Логическая модель">
-    <mxGraphModel dx="4913" dy="2269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="v9or5yY0KIAKRHQaL7rL-0" />
         <mxCell id="v9or5yY0KIAKRHQaL7rL-1" parent="v9or5yY0KIAKRHQaL7rL-0" />
@@ -10,10 +10,10 @@
             <mxPoint x="540" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TckLDGWV12TooiqpzIK_-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="v9or5yY0KIAKRHQaL7rL-1" source="pasMvAfdGevfpp6IdiTx-87" target="pasMvAfdGevfpp6IdiTx-91">
+        <mxCell id="TckLDGWV12TooiqpzIK_-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="v9or5yY0KIAKRHQaL7rL-1" source="pasMvAfdGevfpp6IdiTx-87" target="pasMvAfdGevfpp6IdiTx-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TckLDGWV12TooiqpzIK_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="v9or5yY0KIAKRHQaL7rL-1" source="pasMvAfdGevfpp6IdiTx-87" target="pasMvAfdGevfpp6IdiTx-90">
+        <mxCell id="TckLDGWV12TooiqpzIK_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="v9or5yY0KIAKRHQaL7rL-1" source="pasMvAfdGevfpp6IdiTx-87" target="pasMvAfdGevfpp6IdiTx-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pasMvAfdGevfpp6IdiTx-87" value="Диологи" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="v9or5yY0KIAKRHQaL7rL-1" vertex="1">
@@ -166,168 +166,174 @@
         <mxCell id="GKT2pGZKOeQUbgoUDQdX-19" value="Заказ(FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="v9or5yY0KIAKRHQaL7rL-1" vertex="1">
           <mxGeometry x="-40" y="780" width="200" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="IpdoKUMDZ1MdRO9-dNND-0" value="добавить: &lt;br&gt;консультанты, конкретные вопросы консультанта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="v9or5yY0KIAKRHQaL7rL-1">
+          <mxGeometry x="-550" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IpdoKUMDZ1MdRO9-dNND-2" value="Консультант" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="v9or5yY0KIAKRHQaL7rL-1">
+          <mxGeometry x="-820" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="0a5VuU-vqwpAadKbkWRY" name="Физическая модель">
-    <mxGraphModel dx="8810" dy="4785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3122" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Hk0iEldDr6kdwAqKDroC-0" />
         <mxCell id="Hk0iEldDr6kdwAqKDroC-1" parent="Hk0iEldDr6kdwAqKDroC-0" />
-        <mxCell id="EmocOpkhU6z4b9rN5oCa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-0" target="QBS_KBa03I20bhZuK659-4">
+        <mxCell id="EmocOpkhU6z4b9rN5oCa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-0" target="QBS_KBa03I20bhZuK659-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-0" value="Диологи" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-0" value="Диологи" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-720" y="200" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-1" value="Диалог ID (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-1" value="Диалог ID (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-720" y="240" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-2" value="Название мессенжера (String)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-2" value="Название мессенжера (String)" style="rounded=0;whiteSpace=wrap;html=1;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-720" y="280" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EmocOpkhU6z4b9rN5oCa-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-3" target="QBS_KBa03I20bhZuK659-0">
+        <mxCell id="EmocOpkhU6z4b9rN5oCa-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-3" target="QBS_KBa03I20bhZuK659-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-3" value="Диологи&amp;nbsp;(FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-3" value="Диологи&amp;nbsp;(FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-1000" y="280" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-4" value="Диологи&amp;nbsp;(FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-4" value="Диологи&amp;nbsp;(FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="280" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-6" value="Сообщения Консультанта" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-6" value="Сообщения Консультанта" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-1000" y="200" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-7" value="ID сообщения консультанта (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-7" value="ID сообщения консультанта (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-1000" y="240" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-8" value="Дата сообщения (Date)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-8" value="Дата сообщения (Date)" style="rounded=0;whiteSpace=wrap;html=1;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-1000" y="320" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-9" value="Текст сообшения (String)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-9" value="Текст сообшения (String)" style="rounded=0;whiteSpace=wrap;html=1;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-1000" y="360" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-10" value="Имя представителя (String)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-10" value="Имя представителя (String)" style="rounded=0;whiteSpace=wrap;html=1;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-1000" y="400" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-11" value="Тип представителя (String)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-11" value="Тип представителя (String)" style="rounded=0;whiteSpace=wrap;html=1;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-1000" y="440" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-13" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-14" target="QBS_KBa03I20bhZuK659-33">
+        <mxCell id="QBS_KBa03I20bhZuK659-13" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-14" target="QBS_KBa03I20bhZuK659-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-14" value="Сообщения Покупателя" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-14" value="Сообщения Покупателя" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="200" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-15" value="Дата Сообщения (Date)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-15" value="Дата Сообщения (Date)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="400" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-16" value="Текста вопроса (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-16" value="Текста вопроса (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="360" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-17" value="ID Сообщения покупателя (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-17" value="ID Сообщения покупателя (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="240" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-18" value="Статус доставки (Sting)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-18" value="Статус доставки (Sting)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-720" y="680" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-19" value="ID Товар (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-19" value="ID Товар (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="520" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-20" value="Название (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-20" value="Название (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="560" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-21" value="Цена (Double)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-21" value="Цена (Double)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="600" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-22" value="Категория товара (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-22" value="Категория товара (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="640" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-23" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-25" target="QBS_KBa03I20bhZuK659-49">
+        <mxCell id="QBS_KBa03I20bhZuK659-23" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-25" target="QBS_KBa03I20bhZuK659-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-24" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-25" target="QBS_KBa03I20bhZuK659-32">
+        <mxCell id="QBS_KBa03I20bhZuK659-24" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-25" target="QBS_KBa03I20bhZuK659-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-25" value="Товар" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-25" value="Товар" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="480" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-26" value="Статус оплаты (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-26" value="Статус оплаты (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-720" y="640" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-27" value="Способ оплаты (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-27" value="Способ оплаты (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-720" y="600" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-28" value="Дата оплаты (Date)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-28" value="Дата оплаты (Date)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-720" y="560" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-29" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-14" target="QBS_KBa03I20bhZuK659-14">
+        <mxCell id="QBS_KBa03I20bhZuK659-29" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-14" target="QBS_KBa03I20bhZuK659-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-30" value="Вопрос" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-30" value="Вопрос" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="200" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-31" value="&lt;span&gt;ID Вопрос (PK) (uuid&lt;br&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-31" value="&lt;span&gt;ID Вопрос (PK) (uuid&lt;br&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="240" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-32" value="Товар (FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-32" value="Товар (FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="280" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-33" value="Сообщение покупателя (FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-33" value="Сообщение покупателя (FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-160" y="320" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-34" value="Телефон (PK) (Int)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-34" value="Телефон (PK) (Int)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-35" value="Ф.И.О. покупателя (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-35" value="Ф.И.О. покупателя (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-36" value="Электронная почта (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-36" value="Электронная почта (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="80" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-37" value="Адрес покупателя (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-37" value="Адрес покупателя (String)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="120" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-38" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-39" target="QBS_KBa03I20bhZuK659-40">
+        <mxCell id="QBS_KBa03I20bhZuK659-38" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-39" target="QBS_KBa03I20bhZuK659-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-39" value="Покупатель" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-39" value="Покупатель" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="-40" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-40" value="Покупатель (FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-40" value="Покупатель (FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="320" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-41" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-43" target="QBS_KBa03I20bhZuK659-46">
+        <mxCell id="QBS_KBa03I20bhZuK659-41" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-43" target="QBS_KBa03I20bhZuK659-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-42" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-43" target="QBS_KBa03I20bhZuK659-50">
+        <mxCell id="QBS_KBa03I20bhZuK659-42" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="Hk0iEldDr6kdwAqKDroC-1" source="QBS_KBa03I20bhZuK659-43" target="QBS_KBa03I20bhZuK659-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-43" value="Заказ" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-43" value="Заказ" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-720" y="480" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-44" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-44" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" parent="Hk0iEldDr6kdwAqKDroC-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-620" y="560" as="sourcePoint" />
             <mxPoint x="-620" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-45" value="ID Заказа (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-45" value="ID Заказа (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-720" y="520" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-46" value="Заказ (FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-46" value="Заказ (FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="360" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-47" value="Информация о связе Заказа и Товара" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-47" value="Информация о связе Заказа и Товара" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="480" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-48" value="ID Информация о связе Заказа и Товара (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-48" value="ID Информация о связе Заказа и Товара (PK) (uuid)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="520" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-49" value="Товар(FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-49" value="Товар(FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="560" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QBS_KBa03I20bhZuK659-50" value="Заказ(FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Hk0iEldDr6kdwAqKDroC-1">
+        <mxCell id="QBS_KBa03I20bhZuK659-50" value="Заказ(FK)" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Hk0iEldDr6kdwAqKDroC-1" vertex="1">
           <mxGeometry x="-440" y="600" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
