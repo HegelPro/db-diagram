@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-01-28T15:47:59.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="14.7.3" etag="FvmAo19wd9r-fflYGddr" type="github"><diagram id="vtdc1f0L3zsmNi3PQg2e">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-28T16:05:00.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="DPkBCpG1hx2HGAnG0_hK" version="14.7.3" type="github">
+  <diagram id="vtdc1f0L3zsmNi3PQg2e" name="Page-1">
+    <mxGraphModel dx="1662" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-1" value="Альбом" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="720" y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-7" value="INT album_id(PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-8" value="CHARVAR album_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="440" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-OQiAdhUag4xQjPSDuD-9" target="e-OQiAdhUag4xQjPSDuD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-9" value="INT genre_id(FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-10" value="Артист" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-11" value="INT artist_id(PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-12" value="CHARVAR&amp;nbsp;artist_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-13" value="Жанр" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="720" y="560" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-14" value="INT genre_id(PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="720" y="600" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-15" value="CHARVAR&amp;nbsp;genre_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="640" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-16" value="Плейлист" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-17" value="INT playlist_id(PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-18" value="CHARVAR playlist_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-19" value="CHARVAR&amp;nbsp;playlist_description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-21" value="Трек" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-22" value="INT track_id(PK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D4E1F5;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-23" value="CHARVAR track_name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-OQiAdhUag4xQjPSDuD-24" target="e-OQiAdhUag4xQjPSDuD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-24" value="INT artist_id(FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-25" value="INT duration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-OQiAdhUag4xQjPSDuD-26" target="e-OQiAdhUag4xQjPSDuD-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-26" value="INT album_id(FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="440" y="560" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-OQiAdhUag4xQjPSDuD-27" target="e-OQiAdhUag4xQjPSDuD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-OQiAdhUag4xQjPSDuD-27" value="INT playlist_id(FK)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
